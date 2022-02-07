@@ -1,0 +1,14 @@
+# Lower bounds of area where non-citizens may explore.
+citizenship.pos1 (lower bounds) float -100 0 -100
+
+# Upper bounds of area where non-citizens may explore.
+citizenship.pos2 (upper bounds) float 100 100 100
+
+# Where to teleport non-citizens to when they escape these bounds.
+citizenship.return_point (node coord) float 0 3 0
+
+# Angle to orient player to when warping them to the return_point.
+citizenship.return_yaw_degrees (angle to orient player) float 0
+
+# How often to scan all active players to enforce citizenship check.
+citizenship.scan_seconds (rescan frequency, in seconds) float 10.0
